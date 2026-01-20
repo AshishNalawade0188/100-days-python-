@@ -1,0 +1,10 @@
+a = int(input("Enter the value of a: "))
+b = int(input("Enter the value of b: "))
+c = int(input("Enter the value of c: "))
+
+print("The average of a, b and c is:", (a + b + c) / 3) 
+print("The sum of a, b and c is:", a + b + c)
+print("The product of a, b and c is:", a * b * c)
+print("The largest number among a, b and c is:", max(a, b, c))
+print("The smallest number among a, b and c is:", min(a, b, c))
+print("The value of a raised to the power b is:", a ** b)   
